@@ -1,0 +1,146 @@
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*########### end #############*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*navigation part*/
+.navbar-light .navbar-toggler {
+    color: white !important;
+    background-color: white;
+}
+.navbar-light .navbar-toggler:focus{
+	outline: 0;
+	box-shadow: none;
+}
+/*banner section*/
+.banner_form {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.baner_line {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin: 40px auto;
+}
+.banner_text {
+    padding: 80px 0px 70px 0px;
+    text-align: center;
+}
+/*social media part*/
+.social_media {
+    text-align: center;
+}
+.sm_icon ul li {
+    margin-left: 60px;
+}
+.sm_icon ul li:nth-child(5) {
+    margin-left: 114px;
+}
+/*feature1 section1*/
+.feature1 {
+    padding: 100px 0px 70px 0px;
+}
+.feature1_tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature1_text {
+    text-align: center;
+}
+.feature1_text h2 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.feature1_img {
+    padding-top: 15px;
+    justify-content: center;
+    display: flex;
+}
+.feature2_text {
+    text-align: center;
+}
+.line {
+    margin: 30px auto;
+}
+.feature2 {
+    padding: 40px 0px 40px 0px;
+}
+/*testimonial start*/
+.testimonials {
+    margin: 80px 0px 40px 0px;
+}
+.testibs_img .col-md-3 {
+    display: flex;
+    justify-content: center;
+}
+.testibs_img .col-md-6 {
+    display: flex;
+    justify-content: center;
+}
+/*contact us section*/
+.contact {
+    padding: 80px 0px 60px 0px;
+}
+.contact_input .form-group {
+    padding-bottom: 10px;
+}
+/*########### end #############*/
+
+} 
+
+/*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*navigation part*/
+.navbar-light .navbar-toggler {
+    color: white !important;
+    background-color: white;
+}
+.navbar-light .navbar-toggler:focus{
+	outline: 0;
+	box-shadow: none;
+}
+/*feature1 part*/
+.feature1 {
+    padding: 120px 0px 80px 0px;
+}
+/*footer part*/
+footer ul li {
+    padding: 0px 9px;
+}
+
+
+
+} 
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+} 
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
